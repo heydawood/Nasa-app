@@ -8,7 +8,7 @@ const {showModal, handleToggleModal , data} = props
       <div className='bgGradient'></div>
       <div>
         <h2>{data?.title}</h2>
-        <h1>APOD PROJECT</h1>
+        <h1>Dawood's APOD PROJECT</h1>
       </div>
         <button onClick={handleToggleModal}>
         <i className="fa-solid fa-circle-info"></i>

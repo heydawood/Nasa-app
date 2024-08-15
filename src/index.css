@@ -28,6 +28,7 @@
 .imageContainer {
   display: flex;
   flex-direction: column;
+  max-height: 100vh;
 }
 
 .bgImage {
@@ -94,6 +95,7 @@ footer button:hover{
   display: flex;
   flex-direction: column;
   z-index: 10;
+  max-width: 30%;
 }
 
 .bgOverlay {
@@ -183,10 +185,13 @@ animation: spin 1s linear infinite;
     position: relative;
     inset: unset;
     min-width: 30%;
+    max-height: 100vh;
     box-shadow: 0 0 40px 1px #030615;
   }
 
   .sidebarContent {
     margin: unset;
+    width: 100%;
+
   }
 }
